@@ -1,0 +1,29 @@
+import java.util.*;
+public class prince{
+    public static void main(String[] args){
+        Scanner s = new Scanner(System.in);
+        
+        int num ,temp;
+        int sum = 0 ;
+        
+      
+        System.out.println(" enter the number : ");
+        num = s.nextInt();
+        
+        temp = num;
+        while(temp != 0){
+           
+           sum = sum + temp % 10;
+           
+           temp = temp/10;
+           
+         }
+         System.out.println(" the sum of the elemensts in "+ num + " : " + sum );
+         
+         
+    }
+    
+}
+       
+        
+        
