@@ -1,0 +1,23 @@
+import java.util.*;
+public class guessnumber{
+    public static void main(String[] args){
+        
+        int num = (int)(Math.random()*100) + 1;
+        System.out.println(num);
+        int guess = 0,attempt =  0  ;
+        do{
+            Scanner sc = new Scanner(System.in);
+            System.out.println("enter the number");
+            guess = sc.nextInt();
+            attempt = attempt+ 1;
+            if(guess>num)
+            System.out.println("too high");
+            else if(guess<num)
+            System.out.println("too low");
+            else
+            System.out.println("correct in "+ attempt+"attempts");
+        }
+        while(num != guess);
+            
+        }
+    }
