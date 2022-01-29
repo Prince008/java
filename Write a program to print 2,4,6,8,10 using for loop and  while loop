@@ -12,4 +12,16 @@ public class MyClass {
          
     }
 }
-Write a program to print 10, 8, 6, 4, 2 using for loop and  while loop"
+
+
+
+public class MyClass {
+    public static void main(String args[]) {
+        int i , p = 0;
+        for(i=1;i<=10;i++){
+           if( i % 2 == 0 ) {
+            System.out.println(i++);
+           }
+        }
+    }
+}
