@@ -1,0 +1,15 @@
+public class MyClass {
+    public static void main(String args[]) {
+      int i = 1, sum =0;
+      while(i<=10){
+          sum = i%2;
+          i++;
+         
+          System.out.println(i++);
+         
+      }
+      
+         
+    }
+}
+Write a program to print 10, 8, 6, 4, 2 using for loop and  while loop"
