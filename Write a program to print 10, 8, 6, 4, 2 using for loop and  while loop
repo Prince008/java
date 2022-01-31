@@ -8,3 +8,15 @@ public class MyClass {
         }
     }
 }
+
+
+public class Main{
+	public static void main(String[] args) {
+		int i = 11;
+		while(i > 1) {
+		    int sum = i % 2 ;
+		    i--;
+		    System.out.println(i--);
+		}
+	}
+}
