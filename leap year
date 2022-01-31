@@ -1,10 +1,10 @@
-public class LeapYearExample {    
+public class leap {    
 public static void main(String[] args) {    
-    int year=2020;    
+    int year=2022;    
     if(((year % 4 ==0) && (year % 100 !=0)) || (year % 400==0)){  
-        System.out.println("LEAP YEAR");  
+        System.out.println("leap year");  
     }  
     else{  
-        System.out.println("COMMON YEAR");  
+        System.out.println("not a leap year");  
     }  
 }    
