@@ -1,0 +1,21 @@
+import java.util.*;
+public class power_of_number {
+
+	public static void main(String[] args) {
+		
+		 System.out.println("Enter the number and its power");
+		 Scanner sc = new Scanner(System.in);
+		 int base = sc.nextInt();
+		 int exponent = sc.nextInt();
+
+		    long result = 1;
+
+		    for (; exponent != 0; --exponent) {
+		      result *= base;
+		    }
+
+		    System.out.println("Answer = " + result);
+
+	}
+
+}
