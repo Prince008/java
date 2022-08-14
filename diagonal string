@@ -1,0 +1,31 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        
+        Scanner sc = new Scanner(System.in);
+        String ass = sc.nextLine();
+        String space = "";
+        
+        for(int i=0;i<ass.length();i++){
+            
+               
+            System.out.println( space + ass.charAt(i));
+            
+        
+        space+= " ";
+    }
+}
+}
+
+/*Apple
+
+
+A
+ p
+  p 
+   l
+    e
